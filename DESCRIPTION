@@ -11,3 +11,9 @@ LazyData: true
 RoxygenNote: 7.0.2
 URL: https://github.com/wicaksh/saekernel
 BugReports: https://github.com/wicaksh/saekernel/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    stats

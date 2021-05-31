@@ -2,3 +2,5 @@
 
 export(mse_saekernel)
 export(saekernel)
+importFrom(stats,dnorm)
+importFrom(stats,rnorm)

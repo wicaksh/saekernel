@@ -6,18 +6,24 @@
 #' @param Y Direct Estimation of Y
 #' @param vardir Sampling variances of direct estimators
 #' @param bandwidth The kernel bandwidth smoothing parameter
-#' @param K The Kernel to be used. Only can be "dnorm" or "dunif"
 #' @param B Number of bootstrap. Default is 1000
 #'
-#' @return
+#' @return This function returns a list with following objects:
+#' \item{est}{a value of Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel estimators}
+#' \item{refvar}{estimated random effect variance}
+#' \item{mse}{estimated Bootstrap Mean Squared Error Estimators of Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel}
+#'
 #' @export
 #'
+#' @importFrom stats dnorm rnorm
+#'
 #' @examples
-mse_saekernel <- function(X, Y, vardir, bandwidth, K = dnorm, B = 1000)
+mse_saekernel <- function(X, Y, vardir, bandwidth, B = 1000)
 {
   result <- list(est = NA, refvar = NA, mse = NA)
   x <- X
   h <- bandwidth
+  K = dnorm
 
   Kx <- sapply(X, function(Xi) K((x - Xi) / h) / h)
   wh <- Kx /(rowSums(Kx)/length(X))

@@ -4,7 +4,7 @@
 \alias{saekernel}
 \title{Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel}
 \usage{
-saekernel(X, Y, vardir, bandwidth, K = dnorm)
+saekernel(X, Y, vardir, bandwidth)
 }
 \arguments{
 \item{X}{Auxiliary variable of X}
@@ -14,11 +14,11 @@ saekernel(X, Y, vardir, bandwidth, K = dnorm)
 \item{vardir}{Sampling variances of direct estimators}
 
 \item{bandwidth}{The kernel bandwidth smoothing parameter}
-
-\item{K}{The Kernel to be used. Only can be "dnorm" or "dunif"}
 }
 \value{
-
+This function returns a list with following objects:
+\item{est}{a value of Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel estimators}
+\item{refvar}{estimated random effect variance}
 }
 \description{
 This Function Gives Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel
