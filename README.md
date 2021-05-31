@@ -7,6 +7,8 @@
 
 [![Travis build
 status](https://travis-ci.com/wicaksh/saekernel.svg?branch=master)](https://travis-ci.com/wicaksh/saekernel)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/wicaksh/saekernel?branch=master&svg=true)](https://ci.appveyor.com/project/wicaksh/saekernel)
 <!-- badges: end -->
 
 Propose an area-level, non-parametric regression estimator based on
