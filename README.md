@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/wicaksh/saekernel.svg?branch=master)](https://travis-ci.com/wicaksh/saekernel)
 <!-- badges: end -->
 
 Propose an area-level, non-parametric regression estimator based on
