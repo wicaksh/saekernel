@@ -9,6 +9,8 @@
 status](https://travis-ci.com/wicaksh/saekernel.svg?branch=master)](https://travis-ci.com/wicaksh/saekernel)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/github/wicaksh/saekernel?branch=master&svg=true)](https://ci.appveyor.com/project/wicaksh/saekernel)
+[![Codecov test
+coverage](https://codecov.io/gh/wicaksh/saekernel/branch/master/graph/badge.svg)](https://codecov.io/gh/wicaksh/saekernel?branch=master)
 <!-- badges: end -->
 
 Propose an area-level, non-parametric regression estimator based on
