@@ -23,3 +23,11 @@ This function returns a list with following objects:
 \description{
 This Function Gives Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel
 }
+\examples{
+##load dataset
+data(Data_saekernel)
+
+saekernel(X = Data_saekernel$x, Y = Data_saekernel$y,
+vardir = Data_saekernel$Vardir, bandwidth = 0.04)
+
+}

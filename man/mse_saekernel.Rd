@@ -26,3 +26,11 @@ This function returns a list with following objects:
 \description{
 This Function Gives Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel and Calculates the bootstrap mean squared error estimates
 }
+\examples{
+##load dataset
+data(Data_saekernel)
+
+mse_saekernel(X = Data_saekernel$x, Y = Data_saekernel$y,
+vardir = Data_saekernel$Vardir, bandwidth = 0.04, B = 1000)
+
+}

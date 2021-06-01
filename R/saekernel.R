@@ -16,6 +16,12 @@
 #' @importFrom stats dnorm
 #'
 #' @examples
+#' ##load dataset
+#' data(Data_saekernel)
+#'
+#' saekernel(X = Data_saekernel$x, Y = Data_saekernel$y,
+#' vardir = Data_saekernel$Vardir, bandwidth = 0.04)
+#'
 saekernel <- function(X, Y, vardir, bandwidth)
 {
   result <- list(est = NA, refvar = NA)
