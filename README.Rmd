@@ -31,11 +31,20 @@ You can install the released version of saekernel from [CRAN](https://CRAN.R-pro
 install.packages("saekernel")
 ```
 
-## Example
+## Authors
 
-This is a basic example which shows you how to solve a common problem:
+Wicak Surya Hasani, Azka Ubaidillah
 
-```{r example}
-library(saekernel)
-## basic example code
-```
+## Maintainer 
+Wicak Surya Hasani <221710052@stis.ac.id>
+
+## Functions
+* `saekernel()` Produces Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel estimators
+* `mse_saekernel()` Produces Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel estimators and Bootstrap Mean Squared Error Estimators
+
+## References
+* Mukhopadhyay P, Maiti T. (2004). Two Stage Non-Parametric Approach for Small Areas Estimation. Proceedings of ASA Section on Survey Research Methods: 4058-4065.
+* Prasad, N.G.N., and Rao, J.N.K. (1990). “The estimation of the mean squared error of the small area estimators.” Journal of the American statistical association. 85. 163-171.
+* Hardle, W. (2002). “Applied non-parametric regression,” Cambridge University Press.
+* Indahwati, Sadik K, Nurmasari R. (2008). Pendekatan Metode Pemulusan Kernel Pada Pendugaan Area Kecil. Makalah Semnas Matematika. Universitas Negeri Yogyakarta, Yogyakarta.
+* Darsyah, M. Y. (2013). Small Area Estimation terhadap Pengeluaran Per Kapita di Kabupaten Sumenep Dengan Pendekatan Nonparametrik. Jurnal Statistika Volume 1 Nomor 2. Universitas Muhammadiyah Semarang.
