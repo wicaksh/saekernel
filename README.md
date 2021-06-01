@@ -42,9 +42,11 @@ Wicak Surya Hasani <221710052@stis.ac.id>
 
   - `saekernel()` Produces Small Area Estimation Non-Parametric based
     Nadaraya-Watson Kernel
+
   - `mse_saekernel()` Produces Small Area Estimation Non-Parametric
     based Nadaraya-Watson Kernel and Bootstrap Mean Squared Error
 
+  - 
 ## References
 
   - Mukhopadhyay P, Maiti T. (2004). Two Stage Non-Parametric Approach
