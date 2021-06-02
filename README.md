@@ -40,7 +40,7 @@ Wicak Surya Hasani <221710052@stis.ac.id>
 
 ## Functions
 
-  - `saekernel()` Produces Small Area Estimation Non-Parametric based
+  - `saekernel()` Produces Small Area Estimation Non-Parametric Based
     Nadaraya-Watson Kernel
   - `mse_saekernel()` Produces Small Area Estimation Non-Parametric
     based Nadaraya-Watson Kernel and Bootstrap Mean Squared Error

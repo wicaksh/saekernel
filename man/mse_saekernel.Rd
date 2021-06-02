@@ -2,29 +2,29 @@
 % Please edit documentation in R/mse_saekernel.R
 \name{mse_saekernel}
 \alias{mse_saekernel}
-\title{Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel and Bootstrap Mean Squared Error Estimators}
+\title{Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel and Bootstrap Mean Squared Error Estimators}
 \usage{
 mse_saekernel(X, Y, vardir, bandwidth, B = 1000)
 }
 \arguments{
-\item{X}{Auxiliary variable of X}
+\item{X}{Auxiliary Variable of X}
 
 \item{Y}{Direct Estimation of Y}
 
-\item{vardir}{Sampling variances of direct estimators}
+\item{vardir}{Sampling Variances of Direct Estimators}
 
-\item{bandwidth}{The kernel bandwidth smoothing parameter}
+\item{bandwidth}{The kernel Bandwidth Smoothing Parameter}
 
-\item{B}{Number of bootstrap. Default is 1000}
+\item{B}{Number of Bootstrap. Default is 1000}
 }
 \value{
 This function returns a list with following objects:
-\item{est}{a value of Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel estimators}
-\item{refvar}{estimated random effect variance}
-\item{mse}{estimated Bootstrap Mean Squared Error Estimators of Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel}
+\item{est}{a value of Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel}
+\item{refvar}{Estimated Random Effect Variance}
+\item{mse}{Bootstrap Mean Squared Error Estimators of Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel}
 }
 \description{
-This Function Gives Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel and Calculates the bootstrap mean squared error estimates
+This Function Gives Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel and Calculates The Bootstrap Mean Squared Error Estimates
 }
 \examples{
 ##load dataset

@@ -2,26 +2,26 @@
 % Please edit documentation in R/saekernel.R
 \name{saekernel}
 \alias{saekernel}
-\title{Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel}
+\title{Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel}
 \usage{
 saekernel(X, Y, vardir, bandwidth)
 }
 \arguments{
-\item{X}{Auxiliary variable of X}
+\item{X}{Auxiliary Variable of X}
 
 \item{Y}{Direct Estimation of Y}
 
-\item{vardir}{Sampling variances of direct estimators}
+\item{vardir}{Sampling variances of Direct Estimators}
 
-\item{bandwidth}{The kernel bandwidth smoothing parameter}
+\item{bandwidth}{The kernel Bandwidth Smoothing Parameter}
 }
 \value{
 This function returns a list with following objects:
-\item{est}{a value of Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel estimators}
-\item{refvar}{estimated random effect variance}
+\item{est}{a value of Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel}
+\item{refvar}{Estimated Random Effect Variance}
 }
 \description{
-This Function Gives Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel
+This Function Gives Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel
 }
 \examples{
 ##load dataset

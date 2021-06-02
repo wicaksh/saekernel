@@ -1,15 +1,15 @@
-#' @title Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel
+#' @title Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel
 #'
-#' @description This Function Gives Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel
+#' @description This Function Gives Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel
 #'
-#' @param X Auxiliary variable of X
+#' @param X Auxiliary Variable of X
 #' @param Y Direct Estimation of Y
-#' @param vardir Sampling variances of direct estimators
-#' @param bandwidth The kernel bandwidth smoothing parameter
+#' @param vardir Sampling variances of Direct Estimators
+#' @param bandwidth The kernel Bandwidth Smoothing Parameter
 #'
 #' @return This function returns a list with following objects:
-#' \item{est}{a value of Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel estimators}
-#' \item{refvar}{estimated random effect variance}
+#' \item{est}{a value of Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel}
+#' \item{refvar}{Estimated Random Effect Variance}
 #'
 #' @export
 #'

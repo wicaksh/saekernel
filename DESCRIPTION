@@ -1,6 +1,6 @@
 Package: saekernel
 Type: Package
-Title: Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel
+Title: Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel
 Version: 0.1.0
 Author: Wicak Surya Hasani, Azka Ubaidillah
 Maintainer: Wicak Surya Hasani <221710052@stis.ac.id>

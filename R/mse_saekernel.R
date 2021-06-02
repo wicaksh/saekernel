@@ -1,17 +1,17 @@
-#' @title Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel and Bootstrap Mean Squared Error Estimators
+#' @title Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel and Bootstrap Mean Squared Error Estimators
 #'
-#' @description This Function Gives Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel and Calculates the bootstrap mean squared error estimates
+#' @description This Function Gives Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel and Calculates The Bootstrap Mean Squared Error Estimates
 #'
-#' @param X Auxiliary variable of X
+#' @param X Auxiliary Variable of X
 #' @param Y Direct Estimation of Y
-#' @param vardir Sampling variances of direct estimators
-#' @param bandwidth The kernel bandwidth smoothing parameter
-#' @param B Number of bootstrap. Default is 1000
+#' @param vardir Sampling Variances of Direct Estimators
+#' @param bandwidth The kernel Bandwidth Smoothing Parameter
+#' @param B Number of Bootstrap. Default is 1000
 #'
 #' @return This function returns a list with following objects:
-#' \item{est}{a value of Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel estimators}
-#' \item{refvar}{estimated random effect variance}
-#' \item{mse}{estimated Bootstrap Mean Squared Error Estimators of Small Area Estimation Non-Parametric based Nadaraya-Watson Kernel}
+#' \item{est}{a value of Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel}
+#' \item{refvar}{Estimated Random Effect Variance}
+#' \item{mse}{Bootstrap Mean Squared Error Estimators of Small Area Estimation Non-Parametric Based Nadaraya-Watson Kernel}
 #'
 #' @export
 #'
